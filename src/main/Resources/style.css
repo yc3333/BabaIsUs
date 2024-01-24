@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Fleftex";
+    src: url("fonts/Fleftex_M.ttf");
+}
+
+* {
+    -fx-font-family: "Fleftex";
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+}
+
+.wide-blue-text{
+    -fx-background-color: rgba(59, 130, 246, 0.6);
+    -fx-accent: rgba(96, 165, 250, 0.6);
+    -fx-border-radius: 0;
+    -fx-border-color:  rgba(147, 197, 253, 1) ;
+    -fx-alignment: center;
+    -fx-padding: 1px 0 1px 0;
+    -fx-min-width: 350px;
+}
+
+.white-text{
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: rgba(59, 130, 246, 0.6);
+    -fx-border-radius: 0;
+    -fx-border-color:  rgba(147, 197, 253, 1) ;
+    -fx-padding: 0 100px 0 100px;
+}
+
+.with-opaque-background{
+    -fx-background-image: url("image/menu-background-opaque.png");
+    -fx-background-size: 100%;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+.scroll-pane .track{
+    -fx-stroke-width: 1;
+    -fx-stroke: -c-dark-glass;
+    -fx-arc-width: 16px;
+    -fx-arc-height: 16px;
+    -fx-fill: transparent;
+}
+
+.scroll-pane .thumb {
+    -fx-fill: transparent;
+    -fx-arc-width: 16px;
+    -fx-arc-height: 16px;
+}
+.scroll-pane
+{
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport{
+    -fx-background-color: transparent;
+}
+
+/* entire scroll bar */
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* area around the scroller on the right */
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+/*the scroller*/
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(55, 65, 81, 1);
+    -fx-background-radius: 5em;
+}
+
+
