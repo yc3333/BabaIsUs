@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gameboard.BabaIsYouGameGUIModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-20T00:43:51" hostname="DESKTOP-NLNN4M6" time="0.025">
+  <properties/>
+  <testcase name="nearObjectRight()" classname="gameboard.BabaIsYouGameGUIModelTest" time="0.019"/>
+  <testcase name="nearObjectUp()" classname="gameboard.BabaIsYouGameGUIModelTest" time="0.001"/>
+  <testcase name="nearObjectDown()" classname="gameboard.BabaIsYouGameGUIModelTest" time="0.001"/>
+  <testcase name="nearObjectLeft()" classname="gameboard.BabaIsYouGameGUIModelTest" time="0.0"/>
+  <testcase name="isPassable()" classname="gameboard.BabaIsYouGameGUIModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
